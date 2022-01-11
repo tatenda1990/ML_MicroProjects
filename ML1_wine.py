@@ -51,7 +51,6 @@ svc.fit(X_train_scaled, y_train)
 y_pred_svc = svc.predict(X_test)
 score_svc = accuracy_score(y_test, y_pred_svc)
 
-
 #model 3: MLPClassifier
 from sklearn.neural_network import MLPClassifier
 mlpc = MLPClassifier(random_state = 10)
